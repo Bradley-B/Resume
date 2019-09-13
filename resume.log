@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7050 64-bit) (preloaded format=xelatex 2019.6.17)  9 SEP 2019 16:11
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7050 64-bit) (preloaded format=xelatex 2019.6.17)  12 SEP 2019 21:25
 entering extended mode
 **./resume.tex
 (resume.tex
@@ -1046,6 +1046,10 @@ LaTeX Info: Redefining \nameref on input line 23.
 \@outlinefile=\write6
 \openout6 = `resume.out'.
 
+
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
 \headertextwidth=\skip81
 \headerphotowidth=\skip82
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
@@ -1061,9 +1065,9 @@ LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
 (Font)              scaled to size 4.99947pt on input line 24.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
-(Font)              scaled to size 7.6pt on input line 24.
+(Font)              scaled to size 14.0pt on input line 24.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/sc' will be
-(Font)              scaled to size 7.6pt on input line 24.
+(Font)              scaled to size 14.0pt on input line 24.
 
 Overfull \hbox (1.33334pt too wide) in paragraph at lines 24--25
 []$[]$ $[]$$[]$
@@ -1075,93 +1079,87 @@ Underfull \hbox (badness 10000) in paragraph at lines 24--25
  []
 
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
-(Font)              scaled to size 16.0pt on input line 32.
+(Font)              scaled to size 18.0pt on input line 43.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/bx/n' will be
-(Font)              scaled to size 16.0pt on input line 32.
+(Font)              scaled to size 18.0pt on input line 43.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 39.
+(Font)              scaled to size 12.0pt on input line 50.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/bx/n' will be
-(Font)              scaled to size 10.0pt on input line 39.
+(Font)              scaled to size 12.0pt on input line 50.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 39.
-LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/sl' in size <9> not avail
-able
-(Font)              Font shape `TU/SourceSansPro(2)/m/it' tried instead on inpu
-t line 39.
-LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/it' will be
-(Font)              scaled to size 9.0pt on input line 39.
-LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 39.
-LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/sc' will be
-(Font)              scaled to size 8.0pt on input line 39.
-LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 39.
-LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/sl' in size <8> not avail
-able
-(Font)              Font shape `TU/SourceSansPro(2)/m/it' tried instead on inpu
-t line 39.
-LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/it' will be
-(Font)              scaled to size 8.0pt on input line 39.
-LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/bx/n' will be
-(Font)              scaled to size 9.0pt on input line 39.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 9.00096pt on input line 39.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 6.00064pt on input line 39.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 8.99904pt on input line 39.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 5.99936pt on input line 39.
-LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/n' will be
-(Font)              scaled to size 6.0pt on input line 39.
-LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/bx/sl' in size <8> not avai
+(Font)              scaled to size 11.0pt on input line 50.
+LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/sl' in size <11> not avai
 lable
-(Font)              Font shape `TU/SourceSansPro(2)/bx/it' tried instead on inp
-ut line 75.
-LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/bx/it' will be
-(Font)              scaled to size 8.0pt on input line 75.
-LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/bx/n' will be
-(Font)              scaled to size 10.0pt on input line 85.
-LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/bx/it' will be
-(Font)              scaled to size 10.0pt on input line 85.
-
-Underfull \hbox (badness 10000) in paragraph at lines 84--86
-
- []
-
-LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/m/n' will be
-(Font)              scaled to size 7.0pt on input line 97.
+(Font)              Font shape `TU/SourceSansPro(2)/m/it' tried instead on inpu
+t line 50.
+LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/it' will be
+(Font)              scaled to size 11.0pt on input line 50.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 110.
+(Font)              scaled to size 10.0pt on input line 50.
+LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/sc' will be
+(Font)              scaled to size 10.0pt on input line 50.
+LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/n' will be
+(Font)              scaled to size 10.0pt on input line 50.
+LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/sl' in size <10> not avai
+lable
+(Font)              Font shape `TU/SourceSansPro(2)/m/it' tried instead on inpu
+t line 50.
+LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/it' will be
+(Font)              scaled to size 10.0pt on input line 50.
+LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/bx/n' will be
+(Font)              scaled to size 11.0pt on input line 50.
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 50.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 11.00117pt on input line 50.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 7.70078pt on input line 50.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 5.50058pt on input line 50.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 10.99883pt on input line 50.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 7.69914pt on input line 50.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 5.4994pt on input line 50.
+LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/n' will be
+(Font)              scaled to size 7.69997pt on input line 50.
+LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/bx/n' will be
+(Font)              scaled to size 10.0pt on input line 97.
+LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/bx/it' will be
+(Font)              scaled to size 10.0pt on input line 97.
+LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/m/n' will be
+(Font)              scaled to size 7.0pt on input line 109.
+LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
+(Font)              scaled to size 11.0pt on input line 132.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/bx/n' will be
-(Font)              scaled to size 9.0pt on input line 110.
+(Font)              scaled to size 11.0pt on input line 132.
 
-Overfull \hbox (255.242pt too wide) in paragraph at lines 109--112
+Overfull \hbox (255.242pt too wide) in paragraph at lines 131--134
  [] 
  []
 
 
-Overfull \hbox (255.242pt too wide) in paragraph at lines 116--122
+Overfull \hbox (255.242pt too wide) in paragraph at lines 138--144
  [] 
  []
 
 [1
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 141.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 141.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 163.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 163.
  (resume.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 141.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 141.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 163.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 163.
 Package rerunfilecheck Info: File `resume.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E.
  ) 
 Here is how much of TeX's memory you used:
- 40343 strings out of 427748
- 783793 string characters out of 3150980
- 1016261 words of memory out of 3000000
- 43907 multiletter control sequences out of 15000+200000
- 534972 words of font info for 101 fonts, out of 3000000 for 9000
+ 40350 strings out of 427748
+ 784101 string characters out of 3150980
+ 1020338 words of memory out of 3000000
+ 43913 multiletter control sequences out of 15000+200000
+ 535526 words of font info for 105 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
  72i,12n,109p,830b,446s stack positions out of 5000i,500n,10000p,200000b,50000s
 

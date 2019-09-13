@@ -2,6 +2,7 @@
 \documentclass{awesome-cv}
 \usepackage{multicol, hyperref}
 \usepackage[super]{nth}
+\usepackage{tikz}
 \colorlet{awesome}{teal}
 
  % \definecolor{darktext}{HTML}{00FF00} %green
@@ -18,8 +19,7 @@
 \mobile{(908) 300-2095}
 \email{brad.boxer1@gmail.com}
 \github{Bradley-B}
-\linkedin{}
-
+\linkedin{bradleyboxer}
 \begin{document}
 	\makecvheader[C]
 
@@ -27,6 +27,17 @@
 		{\today}
 		{Bradley Boxer~~~~.~~~~R\'esum\'e}
 		{}
+
+	%SUMMARY
+	%\cvsection{SUMMARY}
+	%\begin{cventries}
+	%	\cventry
+	%		{}
+	%		{}
+	%		{}
+	%		{}
+	%		{Second year software engineering student seeking co-op for the spring and summer term.}
+	%\end{cventries}
 
 	%EDUCATION
 	\cvsection{EDUCATION}
@@ -65,24 +76,25 @@
 
 		\end{cventries}
 	%WORK EXPERIENCE
-	\cvsection{WORK EXPERIENCE}
-		\begin{cventries}
-			\cventry
-				{Hospitality Worker}
-				{HomePlate Catering}
-				{Bridgewater, New Jersey}
-               			{\textbf{May-August, 2017-2019}}
-				{Concessions/Kitchen worker. Practiced essential communication skills such as teamwork and customer diplomacy as well as working quickly and efficiently in a high-pressure environment.}
-		\end{cventries}
+%	\cvsection{WORK EXPERIENCE}
+%		\begin{cventries}
+%			\cventry
+%				{Concessions}
+%				{HomePlate Catering}
+%				{Bridgewater, New Jersey}
+%               			{May-August, 2017-2019}
+%				{Concessions/Kitchen worker. Practiced essential communication skills such as teamwork and customer diplomacy as well as working %quickly and efficiently in a high-pressure environment.}
+%		\end{cventries}
 
 	
-	\vspace{0.5cm}
+%	\vspace{0.5cm}
 	%2 Column Section
 	\begin{multicols}{2}
 
 		%SKILLS
-		\cvsection{SKILLS}\\
-			\\\textbf{\textit{LANGUAGES}}
+		\cvsection{SKILLS}
+		
+			\textbf{\textit{LANGUAGES}}
 			\begin{itemize}[nosep]
 
 				%Languages that I am proficient in
@@ -99,15 +111,25 @@
 			\end{itemize}
 			
 			\textbf{\textit{PROGRAMS / ENVIRONMENTS}}
-			\begin{itemize}[nosep]
-				\item Android Studio, GNU/Linux and Unix-like systems, Vim, Jetbrains products
-			\end{itemize}
+				\begin{itemize}[nosep]
+					\item Android Studio, GNU/Linux and Unix-like systems, Vim, Git, Jetbrains products, Microsoft Office products
+				\end{itemize}
+			
+			\textbf{\textit{CONCEPTS}}
+				\begin{itemize}[nosep]
+					\item Object Oriented Design
+					\item Data Structures
+					\item Version Control
+					\item Web and System Development
+					\item Networking 
+				\end{itemize}
+				
 		\columnbreak
 		
 		\cvsection{EXTRACURRICULAR}
 			\vspace*{-.25cm}
 			\begin{cvhonors}
-			        \cvhonor{General Member}{Society of Software Engineers}{}{2019}
+			        \cvhonor{Member}{Society of Software Engineers}{}{2019}
                 		\cvhonor{Captain}{FIRST Robotics Competition Team 303}{}{2017-2018}
 			\end{cvhonors}
 			\vspace*{-.25cm}
