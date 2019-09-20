@@ -189,7 +189,6 @@
 %-------------------------------------------------------------------------------
 % Configure styles for each CV elements
 % For fundamental structures
-\newcommand{\fontOffset}{20pt}
 
 \newcommand*{\headerfirstnamestyle}[1]{{\fontsize{48pt}{1em}\headerfontlight\color{graytext} #1}}
 \newcommand*{\headerlastnamestyle}[1]{{\fontsize{48pt}{1em}\headerfont\bfseries\color{text} #1}}
@@ -219,7 +218,7 @@
 % For elements of honor
 \newcommand*{\honortitlestyle}[1]{{\fontsize{11pt}{1em}\bodyfont\color{graytext} #1}}
 \newcommand*{\honorpositionstyle}[1]{{\fontsize{11pt}{1em}\bodyfont\bfseries\color{darktext} #1}}
-\newcommand*{\honordatestyle}[1]{{\fontsize{11pt}{1em}\bodyfont\color{graytext} #1}}
+\newcommand*{\honordatestyle}[1]{{\fontsize{10pt}{1em}\bodyfont\color{graytext} #1}}
 \newcommand*{\honorlocationstyle}[1]{{\fontsize{11pt}{1em}\bodyfontlight\slshape\color{awesome} #1}}
 
 % For elements of skill
@@ -738,7 +737,7 @@
 
 % Additional stuff
 \usepackage{tikz}
-\colorlet{bubblecolor}{black!80!white}
+\colorlet{bubblecolor}{black!80!white} %black!80!white
 \newcommand{\cvtag}[1]{%
   \tikz[baseline]\node[anchor=base,draw=bubblecolor!30,rounded corners,inner xsep=1ex,inner ysep =0.75ex,text height=1.5ex,text depth=.25ex]{#1};
 }

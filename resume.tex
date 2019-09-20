@@ -4,6 +4,7 @@
 \usepackage[super]{nth}
 \usepackage{tikz}
 \colorlet{awesome}{teal}
+%\setlength{\columnsep}{2.5cm}
 
  % \definecolor{darktext}{HTML}{00FF00} %green
  % \definecolor{text}{HTML}{FF00FF} % pink
@@ -15,7 +16,7 @@
 
 %PERSONAL INFORMATION (this will be included in the header)
 \name{Bradley}{Boxer}
-\position{Software Engineering Student}
+\position{Software Engineer}
 \mobile{(908) 300-2095}
 \email{brad.boxer1@gmail.com}
 \github{Bradley-B}
@@ -25,7 +26,7 @@
 
 	\makecvfooter
 		{\today}
-		{Bradley Boxer~~~~.~~~~R\'esum\'e}
+		{}
 		{}
 
 	%SUMMARY
@@ -72,7 +73,13 @@
                 		{Personal Website}
                 		{February 2019 - Present}
                 		{}
-                		{Solo project. Code for my personal website \href{http://bradleyboxer.com}. Written in Python using Flask.}
+                		{
+						\vspace{-0.5cm}
+						\begin{itemize}[nosep]
+							\item Solo project. Code for my personal website \href{http://bradleyboxer.com}{bradleyboxer.com}. Written in Python using Flask.
+						\end{itemize}
+						\vspace{-0.5cm}
+					}
 
 		\end{cventries}
 	%WORK EXPERIENCE
@@ -88,53 +95,9 @@
 
 	
 %	\vspace{0.5cm}
-	%2 Column Section
-	\begin{multicols}{2}
-
-		%SKILLS
-		\cvsection{SKILLS}
+	%2 Column Section				
 		
-			\textbf{\textit{LANGUAGES}}
-			\begin{itemize}[nosep]
-
-				%Languages that I am proficient in
-				\item \textbf{PROFICIENT}
-					\begin{itemize}[nosep]
-					\item Java, Python
-				\end{itemize}
-
-				%Languages that I am familiar with
-				\item \textbf{ACTIVELY LEARNING}
-					\begin{itemize}[nosep]
-					\item C, Ruby, Bash, SQL, HTML/CSS, JavaScript, \LaTeX
-				\end{itemize}
-			\end{itemize}
-			
-			\textbf{\textit{PROGRAMS / ENVIRONMENTS}}
-				\begin{itemize}[nosep]
-					\item Android Studio, GNU/Linux and Unix-like systems, Vim, Git, Jetbrains products, Microsoft Office products
-				\end{itemize}
-			
-			\textbf{\textit{CONCEPTS}}
-				\begin{itemize}[nosep]
-					\item Object Oriented Design
-					\item Data Structures
-					\item Version Control
-					\item Web and System Development
-					\item Networking 
-				\end{itemize}
-				
-		\columnbreak
-		
-		\cvsection{EXTRACURRICULAR}
-			\vspace*{-.25cm}
-			\begin{cvhonors}
-			        \cvhonor{Member}{Society of Software Engineers}{}{2019}
-                		\cvhonor{Captain}{FIRST Robotics Competition Team 303}{}{2017-2018}
-			\end{cvhonors}
-			\vspace*{-.25cm}
 		\cvsection{COURSES}
-			\vspace*{-.25cm}
 			\begin{cvhonors}
 				\cvhonor{CSAPX}{RIT}{}{2018}
 				\cvhonor{Personal Software Engineering}{RIT}{}{2019}
@@ -144,14 +107,43 @@
 			\end{cvhonors}
 			\vspace*{-.25cm}
 
+		%SKILLS
+		\cvsection{SKILLS}
+		
+			\textbf{\textit{LANGUAGES}}
+			
+			\begin{table}[h]
+			\begin{tabular}{ll}
+				Proficient & Actively Learning \\
+     				\cvtag{Java} \cvtag{Python} &  \cvtag{C} \cvtag{Ruby} \cvtag{Bash} \cvtag{SQL} \cvtag{HTML/CSS} \cvtag{JavaScript}\cvtag{\LaTeX}
+			\end{tabular}
+			\end{table}
+			
+			\vspace{-0.2cm}
+			\textbf{\textit{PROGRAMS / ENVIRONMENTS}}
+				
+				\hspace{0.2cm} \cvtag{Android Studio} \cvtag{GNU/Linux} \cvtag{Vim} \cvtag{Git} \cvtag{Jetbrains Products}
+							\cvtag{Microsoft Office Products}
+			
+			\textbf{\textit{CONCEPTS}}
+				
+				\hspace{0.2cm} \cvtag{Object Oriented Design} \cvtag{Data Structures} \cvtag{Version Control} 
+						  \cvtag{Networking}
+				
+
+		\cvsection{EXTRACURRICULAR}
+			\begin{cvhonors}
+			        \cvhonor{Member}{Society of Software Engineers}{}{2019}
+                		\cvhonor{Captain}{FIRST Robotics Competition Team 303}{}{2017-18}
+			\end{cvhonors}
+		
 %		\cvsection{VOLUNTEERING}
 %			\vspace*{-.25cm}
 %			\begin{cvhonors}
 %				\cvhonor{Cameraman/Editor}{Newtown Board of Ed}{}{2014-2017}
 %				\cvhonor{Video Creator}{Relay for Life}{}{2014}
 %			\end{cvhonors}
-	\end{multicols}	
-	\vspace*{-.5cm}
+		
 %	\cvsection{HONORS}
 %		\begin{cvhonors}
 %			\cvhonor{Honors Program}{Rochester Institute of Technology}{}{2017-2018}
