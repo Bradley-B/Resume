@@ -3,7 +3,10 @@
 \usepackage{multicol, hyperref}
 \usepackage[super]{nth}
 \usepackage{tikz}
-\colorlet{awesome}{teal}
+%\definecolor{awesome}{RGB}{57, 163, 21}
+\definecolor{awesome}{RGB}{13,126,124}
+
+%\colorlet{awesome}{teal}
 %\setlength{\columnsep}{2.5cm}
 
  % \definecolor{darktext}{HTML}{00FF00} %green
@@ -21,13 +24,14 @@
 \email{brad.boxer1@gmail.com}
 \github{Bradley-B}
 \linkedin{bradleyboxer}
+\extrainfo{Rochester, NY}
 \begin{document}
 	\makecvheader[C]
 
 	\makecvfooter
 		{}
 		{}
-		{\today}
+		{}
 
 	%SUMMARY
 	%\cvsection{SUMMARY}
@@ -42,31 +46,68 @@
 
 	%EDUCATION
 	\cvsection{EDUCATION}
+		\vspace{-0.1cm}
 		\begin{cventries}
 			\cventry
 				{Bachelor of Science in Software Engineering}
 				{Rochester Institute of Technology}
 				{Rochester, New York}
 				{2018 - 2023}
-                {\textbf{GPA: 3.90} \nth{2} Year}
+                {\textbf{GPA: 3.8} \nth{2} Year}
+%                Notable courses: CS1/2, Engineering of Software Subsystems, Math Models of Software, Personal Software Engineering 
 		\end{cventries}
+		
+		\vspace{-0.2cm}
 
 	%PROJECTS
 	\cvsection{PROJECTS}
+			\vspace{-0.15cm}
+
 		\begin{cventries}
 			\cventry
 				{\href{https://github.com/Bradley-B/ScavengerHuntAndroid}{https://github.com/Bradley-B/ScavengerHuntAndroid}}
-				{Scavenger Hunt}
-				{May 2018 - Present}
+				{Scavenger Hunt\small{\textnormal{\color{graytext}{, Personal Project}}}}
+				{May 2018 - December 2019}
 				{}
-				{Solo project. Android app. Create and share scavenger hunts using GPS coordinates and QR codes. Uses a Firebase Cloud Store database to store user data. Written in Java and currently on the Google Play Store.}
+				{
+					\vspace{-0.25cm}
+					\begin{itemize}[nosep]
+						\item Developed app in Android Studio to create and share scavenger hunts using GPS coordinates and QR codes 
+						\item Integrated Firebase Cloud Store database to store user data. Published on the Google Play Store
+					\end{itemize}
+					\vspace{-0.5cm}
+				}
 
 			\cventry
 				{Code Available Upon Request}
-				{WebCheckers}
+				{Airline Flight Reservation System\small{\textnormal{\color{graytext}{, Engineering of Software Subsystems}}}}
+				{August - December 2019}
+				{}
+				{
+					\vspace{-0.25cm}
+					\begin{itemize}[nosep]
+						\item Collaborated with a team of five to create a simulated flight management and reservation system
+						\item Queried official FAA REST API for airport and flight delays as well as weather information
+						\item Implemented breadth-first search to compute flight connections through airports
+						\item Wrote documentation about design patterns and principles to justify design choices
+					\end{itemize}
+					\vspace{-0.5cm}
+				}
+
+			\cventry
+				{Code Available Upon Request}
+				{WebCheckers\small{\textnormal{\color{graytext}{, Introduction to Software Engineering}}}}
 				{January - May 2019}
 				{}
-				{Group project. An online Checkers game system built in Java 8 and Spark, a web micro-framework. Supports multiple consecutive users, spectating games, and an AI opponent. Created as part of the Introduction to Software Engineering course at RIT.}
+				{
+					\vspace{-0.25cm}
+					\begin{itemize}[nosep]
+						\item Collaborated with a team of five to create an online checkers website in Java and Spark web framework
+						\item Implemented agile development practices including domain analysis and daily standups
+						\item Wrote documentation about design principles to justify design choices
+					\end{itemize}
+					\vspace{-0.5cm}
+				}
 
 %            		\cventry
 %              		{\href{https://github.com/Bradley-B/Flask-Experiments}{https://github.com/Bradley-B/Flask-Experiments}}
@@ -80,49 +121,86 @@
 %						\end{itemize}
 %						\vspace{-0.5cm}
 %					}
-
+		\vspace{-0.2cm}
 		\end{cventries}
 	%WORK EXPERIENCE
-%	\cvsection{WORK EXPERIENCE}
-%		\begin{cventries}
+	\cvsection{EXPERIENCE}
+		\begin{cventries}
+			\vspace{-0.2cm}
+			
+			\cventry
+				{RIT, Software Engineering Department}
+				{Course Assistant\small{\textnormal{\color{graytext}{, Introduction to Software Engineering}}}}
+				{January 2020 - Present}
+				{}
+				{
+					\vspace{-0.3cm}
+					\begin{itemize}[nosep]
+						\item Graded students and provided detailed feedback on quizzes and assignments
+						\item Ran supplemental workshops to review important topics like version control and web development
+					\end{itemize}
+					\vspace{-0.5cm}
+				}
+				
+			\cventry
+				{RIT, Society of Software Engineers}
+				{Mentor}
+				{January 2020 - Present}
+				{}
+				{
+					\vspace{-0.3cm}
+					\begin{itemize}[nosep]
+						\item Assisted individual students with introductory computer science and software engineering coursework
+						\item Ran group exam review workshops to efficiently cover test material
+					\end{itemize}
+					\vspace{-0.5cm}
+				}	
 %			\cventry
 %				{Concessions}
 %				{HomePlate Catering}
 %				{Bridgewater, New Jersey}
 %               			{May-August, 2017-2019}
 %				{Concessions/Kitchen worker. Practiced essential communication skills such as teamwork and customer diplomacy as well as working %quickly and efficiently in a high-pressure environment.}
-%		\end{cventries}
+		\end{cventries}
 
 	
-%	\vspace{0.5cm}
+	\vspace{-0.25cm}
 	%2 Column Section				
 		
-		\cvsection{COURSES}
+%		\cvsection{COURSES}
 
-			\vspace{0.2cm}
-			\entrytitlestyle{CSAPX}
-			\vspace{-0.1cm}
-			\descriptionstyle{
-			\begin{itemize}[nosep]
-				\item Introductory computer science course, using Python and Java
-				\item Common data structures, concepts, and algorithms, such as: searching and sorting, trees, threads, collections
-				\item Object Oriented Programming concepts such as inheritance, polymorphism, and encapsulation
-			\end{itemize}}
-
-			\entrytitlestyle{Introduction to Software Engineering}
-			\vspace{-0.1cm}
-			\descriptionstyle{
-			\begin{itemize}[nosep]
-				\item Built a complete software product from start to finish following Scrum practices in a group of five
-				\item Followed OO design principles and patterns, tested the system and documented the design process
-			\end{itemize}}
+%			\vspace{0.2cm}
 			
-			\entrytitlestyle{Personal Software Engineering}
-			\vspace{-0.1cm}
-			\descriptionstyle{
-			\begin{itemize}[nosep]
-				\item Unix systems and low level programming in C, using Vim, GDB, Git, and related tools. Introduction to Ruby programming and unit testing.
-			\end{itemize}}
+%			\entrytitlestyle{Engineering of Software Subsystems}
+%			\vspace{-0.1cm}
+%			\descriptionstyle{
+%			\begin{itemize}[nosep]
+%				\item Utilized software engineering design principles and patterns to design and create a flight reservation system
+%				\item Queried FAA webservice to use real airport and flight data
+%			\end{itemize}}
+
+%			\entrytitlestyle{Introduction to Software Engineering}
+%			\vspace{-0.1cm}
+%			\descriptionstyle{
+%			\begin{itemize}[nosep]
+%				\item Built a complete software product from start to finish following Scrum practices in a group of five
+%				\item Followed OO design principles and patterns, tested the system and documented the design process
+%			\end{itemize}}
+			
+%			\entrytitlestyle{Personal Software Engineering}
+%			\vspace{-0.1cm}
+%			\descriptionstyle{
+%			\begin{itemize}[nosep]
+%				\item Studied Unix systems and programming in C and Ruby, using Vim, GDB, Git, and related tools
+%			\end{itemize}}
+			
+%			\entrytitlestyle{CSAPX}
+%			\vspace{-0.1cm}
+%			\descriptionstyle{
+%			\begin{itemize}[nosep]
+%				\item Learned about introductory computer science topics, using Python and Java
+%				\item Studied common datastructures, concepts, and algorithms, such as: searching and sorting, trees, threads, hashmaps, inheritance, polymorphism, and encapsulation
+%			\end{itemize}}
 			
 %			\begin{cvhonors}
 %				\cvhonor{CSAPX}{RIT}{}{2018}
@@ -137,31 +215,32 @@
 		\cvsection{SKILLS}
 		
 			\textbf{\textit{LANGUAGES}}
-			\vspace{-0.1cm}
+			\vspace{-0.2cm}
 			
 			\begin{table}[h]
-			\begin{tabular}{ll}
-				Proficient & Actively Learning \\
-     				\cvtag{Java} \cvtag{Python} &  \cvtag{C} \cvtag{Ruby} \cvtag{Bash} \cvtag{SQL} \cvtag{HTML/CSS} \cvtag{JavaScript}\cvtag{\LaTeX}
+			\begin{tabular}{lll}
+				Expert & Proficient & Prior Experience \\
+     				\cvtag{Java} & \cvtag{Python} \cvtag{JavaScript} \cvtag{HTML/CSS} &  \cvtag{C} \cvtag{Ruby} \cvtag{SQL} \cvtag{\LaTeX}
 			\end{tabular}
 			\end{table}
 			
-			\vspace{-0.2cm}
-			\textbf{\textit{PROGRAMS / ENVIRONMENTS}}
+			\vspace{-0.3cm}
+			\textbf{\textit{TECHNOLOGIES}}
 				
-				\hspace{0.15cm} \cvtag{Android Studio} \cvtag{GNU/Linux} \cvtag{Vim} \cvtag{Git} \cvtag{Jetbrains Products}
-							\cvtag{Microsoft Office Products}
+				\hspace{0.15cm} \cvtag{Android Studio} \cvtag{React} \cvtag{Node.js} \cvtag{Git}
+							\cvtag{REST APIs} \cvtag{Jetbrains Products} \cvtag{GNU/Linux} \cvtag{Vim}
 			
 			\textbf{\textit{CONCEPTS}}
 				
-				\hspace{0.15cm} \cvtag{Object Oriented Design} \cvtag{Data Structures} \cvtag{Version Control} 
+				\hspace{0.15cm} \cvtag{Design Patterns} \cvtag{Object Oriented Design} \cvtag{Data Structures} \cvtag{Version Control} 
 						  \cvtag{Networking} \cvtag{Agile/Scrum}
 				
-
+		\vspace{-0.15cm}
 		\cvsection{EXTRACURRICULAR}
 			\begin{cvhonors}
-			        \cvhonor{Member}{Society of Software Engineers}{}{2019}
-                		\cvhonor{Captain}{FIRST Robotics Competition Team 303}{}{2017-18}
+				\cvhonor{Member}{Society of Software Engineers}{Rochester, NY}{2019-20}
+                		\cvhonor{Captain}{FIRST Robotics Competition Team 303}{Bridgewater, NJ}{2017-18}
+         
 			\end{cvhonors}
 		
 %		\cvsection{VOLUNTEERING}
