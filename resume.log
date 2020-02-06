@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7050 64-bit) (preloaded format=xelatex 2019.6.17)  2 FEB 2020 21:28
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7050 64-bit) (preloaded format=xelatex 2019.6.17)  5 FEB 2020 20:02
 entering extended mode
 **./resume.tex
 (resume.tex
@@ -1128,7 +1128,7 @@ LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/bx/n' will be
 LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/bx/it' will be
 (Font)              scaled to size 10.0pt on input line 217.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/m/n' will be
-(Font)              scaled to size 7.0pt on input line 223.
+(Font)              scaled to size 7.0pt on input line 231.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
 (Font)              scaled to size 11.0pt on input line 241.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/bx/n' will be
@@ -1151,6 +1151,6 @@ Here is how much of TeX's memory you used:
  43966 multiletter control sequences out of 15000+200000
  535542 words of font info for 107 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
- 72i,14n,109p,830b,861s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 72i,13n,109p,830b,861s stack positions out of 5000i,500n,10000p,200000b,50000s
 
 Output written on resume.pdf (1 page).
