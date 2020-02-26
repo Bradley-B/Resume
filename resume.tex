@@ -3,6 +3,8 @@
 \usepackage{multicol, hyperref}
 \usepackage[super]{nth}
 \usepackage{tikz}
+\usepackage{booktabs}
+\newcommand{\tabitem}{~~\llap{\textbullet}~~}
 %\definecolor{awesome}{RGB}{57, 163, 21}
 \definecolor{awesome}{RGB}{13,126,124}
 
@@ -34,56 +36,69 @@
 		{}
 
 	%OBJECTIVE
-	%\cvsection{OBJECTIVE}
-	%\begin{cventries}
-	%	\vspace{-0.25cm}
-	%	\begin{itemize}[nosep]
-	%		\item Second year software engineering student seeking co-op for the summer and fall
-	%	\end{itemize}
-				
-	%	\vspace{-0.25cm}
-	%\end{cventries}
+	\cvsection{PROFILE}
+		\vspace{-0.1cm}
+		
+		Motivated second-year software engineer looking for an internship or full-time position during \textbf{summer and/or fall 2020}. \\Extensive experience in:
+		
+		\vspace{-0.1cm}
+		\begin{center}
+		\begin{tabular}{l@{\hskip 2cm}l}
+		\tabitem Object Oriented Design & \tabitem Subsystem Design and Architecture \\
+		\tabitem Android and Mobile Development & \tabitem Agile and Scrum \\
+		\tabitem Full Stack Web Development  & \tabitem Version Control Systems
+		\end{tabular}
 
+%		\begin{tabular}{l@{\hskip 1cm}l@{\hskip 1cm}l}
+%		\tabitem Object Oriented Design & \tabitem Subsystem Design and Architecture & \tabitem Agile Development \\
+%		\tabitem Android and Mobile Development & \tabitem REST APIs & \tabitem Version Control Systems \\
+%		\end{tabular}
+
+
+
+		\end{center}
+		\vspace{-0.25cm}
+	
 	%EDUCATION
 	\cvsection{EDUCATION}
-		\vspace{-0.1cm}
+		\vspace{-0.15cm}
 		\begin{cventries}
-			\cventry
-				{Bachelor of Science in Software Engineering}
-				{Rochester Institute of Technology}
-				{Rochester, New York}
-				{2018 - 2023}
-                {\textbf{GPA: 3.8} \nth{2} Year}
+			\cventryB
+				{}
+				{Rochester Institute of Technology\small{\textnormal{\color{graytext}{\enskip B.S. Software Engineering}}}}
+				{May 2023}
+				{}
+                		{\textbf{GPA: 3.8/4.0}}
 %                Notable courses: CS1/2, Engineering of Software Subsystems, Math Models of Software, Personal Software Engineering 
 		\end{cventries}
 		
 		\vspace{-0.2cm}
 
 	%PROJECTS
-	\cvsection{PROJECTS}
-			\vspace{-0.15cm}
+	\cvsection{RELEVENT EXPERIENCE}
+			\vspace{-0.2cm}
 
 		\begin{cventries}
 			\cventry
 				{\href{https://github.com/Bradley-B/ScavengerHuntAndroid}{https://github.com/Bradley-B/ScavengerHuntAndroid}}
-				{Scavenger Hunt\small{\textnormal{\color{graytext}{, Personal Project}}}}
-				{May 2018 - December 2019}
+				{Scavenger Hunt\small{\textnormal{\color{graytext}{\enskip Personal Project}}}}
+				{Fall 2019}
 				{}
 				{
 					\vspace{-0.25cm}
 					\begin{itemize}[nosep]
-						\item Developed app in Android Studio to create, and share scavenger hunts
-						\item Integrated Firebase Cloud Store database to store data   
+						\item Developed app in Android Studio to create customizable and automated scavenger hunts
+						\item Integrated with Firebase Cloud Store database to store scavenger hunts 
 						\item Released app on the Google Play Store
 					\end{itemize}
 					\vspace{0.2cm}
-					\qquad \textbf{Tools}: Java, Android Studio, Git, Firebase, JSON
+					\qquad \textbf{Tools}: Android Studio, Java, Git, Firebase, JSON
 				}
 
-			\cventry
+			\cventryB
 				{Code Available Upon Request}
-				{Airline Flight Reservation System\small{\textnormal{\color{graytext}{, Engineering of Software Subsystems}}}}
-				{August - December 2019}
+				{Airline Flight Reservation System\small{\textnormal{\color{graytext}{\enskip Engineering of Software Subsystems}}}}
+				{Fall 2019}
 				{}
 				{
 					\vspace{-0.25cm}
@@ -97,21 +112,21 @@
 					\qquad \textbf{Tools}: Java, REST APIs, Design Patterns, Networking, Algorithms, IntelliJ IDEA, Git
 				}
 
-			\cventry
+			\cventryB
 				{Code Available Upon Request}
-				{WebCheckers\small{\textnormal{\color{graytext}{, Introduction to Software Engineering}}}}
-				{January - May 2019}
+				{WebCheckers\small{\textnormal{\color{graytext}{\enskip Introduction to Software Engineering}}}}
+				{Spring 2019}
 				{}
 				{
 					\vspace{-0.25cm}
 					\begin{itemize}[nosep]
-						\item Collaborated with a team of five to create an online checkers website in Java and Spark web framework
-						\item Analyzed problem domain to follow domain driven design  and agile development practices
-						\item Documented design decisions using basic object-oriented principles
+						\item Collaborated with a team of five to complete three releases
+						\item Analyzed problem domain to follow domain driven design and agile development practices
+						\item Documented design decisions using object-oriented principles
 						\item Ensured application correctness through unit testing, reaching 80\% code coverage
 					\end{itemize}
 					\vspace{0.2cm}
-					\qquad \textbf{Tools}: Java, Spark, Agile/Scrum, JaCoCo, HTML, AJAX, IntelliJ IDEA, Git
+					\qquad \textbf{Tools}: Spark, Java, Agile/Scrum, JaCoCo, HTML, AJAX, IntelliJ IDEA, Git
 				}
 
 %            		\cventry
@@ -130,7 +145,7 @@
 		\end{cventries}
 	%WORK EXPERIENCE
 	\vspace{-0.1cm}
-	\cvsection{EXPERIENCE}
+	\cvsection{PROFESSIONAL EXPERIENCE}
 		\begin{cventries}
 			\vspace{-0.1cm}
 			
@@ -142,8 +157,8 @@
 				{
 					\vspace{-0.3cm}
 					\begin{itemize}[nosep]
-						\item Graded students and provided detailed feedback on quizzes and assignments
-						\item Ran supplemental workshops to review important topics like version control and web development
+						\item Evaluated course documents and provided detailed feedback on quizzes and assignments
+						\item Planned and executed supplemental workshops to review important topics and concepts
 					\end{itemize}
 					\vspace{-0.5cm}
 				}
