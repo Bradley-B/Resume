@@ -631,6 +631,20 @@
   \end{tabular*}%
 }
 
+\newcommand*{\cventryC}[7]{%
+  %\vspace{-2.0mm}
+  \setlength\tabcolsep{0pt}
+  \setlength{\extrarowheight}{0pt}
+  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{\textwidth - 4.5cm} R{4.5cm}}
+    \ifempty{#2#3}
+     {\entrypositionstyle{#1} & \entrydatestyle{#6} \\}
+     {\entrytitlestyle{#2} & \entrylocationstyle{#3} \\ 
+	 \entrytitlestyle{#4} & \entrylocationstyle{#5} \\
+      \entrypositionstyle{#1} & \entrydatestyle{#6} \\}
+    \multicolumn{2}{L{\textwidth}}{\descriptionstyle{#7}}
+  \end{tabular*}%
+}
+
 % Define an environment for cvsubentry
 \newenvironment{cvsubentries}{%
   \begin{center}
